@@ -1,20 +1,27 @@
 body {
-  padding: 0;
   margin: 0;
+  padding: 0;
+  width: 1440px;
+  height: 800px;
   font-family: "Fraunces", "Montserrat";
+  background-color: hsl(30, 38%, 92%);
+}
+
+.container {
   position: absolute;
   width: 600px;
   height: 450px;
   left: 420px;
   top: 175px;
+  background-color: #ffffff;
 }
-
-img {
-  position: absolute;
+.container img {
   width: 300px;
   height: 450px;
-  left: 0px;
-  top: 0px;
+  width: 300px;
+  height: 450px;
+  left: 420px;
+  top: 175px;
 }
 
 h1 {
@@ -22,12 +29,12 @@ h1 {
   width: 92px;
   height: 15px;
   top: 32px;
-  left: 332px;
+  left: 331.5px;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
-  line-height: 15px;
+  line-height: 14.63px;
   letter-spacing: 5px;
   color: #6c7289;
 }
@@ -43,7 +50,6 @@ h2 {
   font-weight: 700;
   font-size: 32px;
   line-height: 32px;
-
   color: #1c232b;
 }
 p {
@@ -51,34 +57,34 @@ p {
   width: 237px;
   height: 92px;
   top: 187px;
-  left: 332px;
-
+  left: 331.5px;
   font-family: "Montserrat";
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 23px;
-  /* or 164% */
-
-  /* Aurometal Saurus */
-
   color: #6c7289;
 }
 
 .p_discount {
+  position: absolute;
+  width: 127px;
+  height: 32px;
+  top: 308px;
+  left: 332px;
   font-family: "Fraunces";
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 32px;
-  /* identical to box height, or 100% */
-
-  /* Deep Aquamarine */
-
   color: #3d8168;
 }
 
 .p_full {
+  position: absolute;
+  width: 48px;
+  height: 23px;
+  top: 313px;
+  left: 478px;
   font-family: "Montserrat";
   font-style: normal;
   position: absolute;
@@ -89,13 +95,12 @@ p {
   color: #6c7289;
 }
 
-.key {
+/* .key {
   position: absolute;
   width: 236px;
   height: 48px;
-  top: 370px;
-  left: 332px;
-
+  top: 545px;
+  left: 752px;
   background: #3d8168;
   border-radius: 8px;
 }
@@ -103,18 +108,32 @@ p {
 .key img {
   width: 14px;
   height: 16px;
-}
+} */
 
 .btn {
-  position: absolute;
-  width: 85px;
-  height: 17px;
-  left: 26px;
+  position: inherit;
+  width: 236px;
+  height: 48px;
+  top: 370px;
+  left: 332px;
+  background-color: #979797;
 }
 
-.group4 {
-  width: 111px;
-  height: 18px;
-  top: 385px;
-  left: 395px;
+.btn img {
+  position: inherit;
+  width: 14.39px;
+  height: 16px;
+  top: 1px;
+  left: 63px;
+  top: 16px;
+}
+
+.btn a {
+  color: #ffffff;
+  position: inherit;
+  width: 85px;
+  height: 17px;
+  left: 89px;
+  top: 15px;
+  font-size: 14px;
 }
