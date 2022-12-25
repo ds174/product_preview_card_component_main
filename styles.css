@@ -37,6 +37,8 @@ h1 {
   line-height: 14.63px;
   letter-spacing: 5px;
   color: #6c7289;
+  padding: 0;
+  margin: 0;
 }
 
 h2 {
@@ -46,11 +48,12 @@ h2 {
   top: 67px;
   left: 332px;
   font-family: "Fraunces";
-  font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 32px;
   color: #1c232b;
+  padding: 0;
+  margin: 0;
 }
 p {
   position: absolute;
@@ -63,6 +66,8 @@ p {
   font-size: 14px;
   line-height: 23px;
   color: #6c7289;
+  padding: 0;
+  margin: 0;
 }
 
 .p_discount {
@@ -107,28 +112,44 @@ p {
   border-radius: 8px;
 }
 
-/* .btn img {
+.btn img {
   position: inherit;
   width: 14.39px;
   height: 16px;
   top: 1px;
   left: 63px;
   top: 16px;
-}
- */
-/* .btn a {
   color: #ffffff;
+}
+
+.btn p {
   position: inherit;
+  color: white;
   width: 85px;
   height: 17px;
   left: 89px;
   top: 15px;
+  bottom: 16px;
   font-size: 14px;
-} */
+  font-weight: 700;
+  font-family: "Montserrat";
+  line-height: 17px;
+  margin: 0;
+  padding: 0;
+}
 
 .btn:hover {
   position: inherit;
- /*  color: #1A4032; */
-  background-color: #1A4032;
+  background-color: #1a4032;
   cursor: pointer;
+}
+
+@media (max-width: 376px) {
+  body {
+    margin: 0;
+    padding: 0;
+    
+ 
+
+  }
 }
